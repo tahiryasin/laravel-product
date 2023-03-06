@@ -1,0 +1,24 @@
+{
+    "name": "tahiryasin/laravel-module",
+    "description": "A simple 'Product' module.",
+    "authors": [
+        {
+            "name": "Tahir Yasin",
+            "email": "tahiryasin123@gmail.com"
+        }
+    ],
+	"require": {},
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Product\\": ""
+        }
+    }
+}
